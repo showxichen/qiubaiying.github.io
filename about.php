@@ -1,32 +1,33 @@
 ---
 layout: page
-title: "About"
-description: "Hey, this is BY."
-header-img: "img/post-bg-rwd.jpg"
+title: "LOOK XI.CHEN"
+description: "You know who am I."
+header-img: "img/background3.jpg"
 ---
 
 <!-- Language Selector -->
 <select class="sel-lang" onchange= "onLanChange(this.options[this.options.selectedIndex].value)">
     <option value="0" selected> 中文 Chinese </option>
     <option value="1"> 英文 English </option>
+    <option value="1"> 法文 French </option>
 </select>
 
 <!-- Chinese Version -->
 <div class="zh post-container">
 
     <!--copied from markdown -->
-    <blockquote><p>冰冻三尺 非一日之寒，<br>
-    积土成山 非斯须之作</p></blockquote>
+    <blockquote><p>来去自由<br>
+    跟着感觉走</p></blockquote>
 
-    <p>Hey，我是<strong>柏荧(BY)</strong>，一只iOS程序猿，现在厦门工作。</p>
+    <p>一个事出意外的程序猿<strong>陈茜（XI)</strong>，爱闹爱笑爱自由，正经的心是什么好吃吗</p>
 
-    <p>这是我的利用 <a href="https://pages.github.com/">GitHub Pages</a> 与 <a href="http://jekyll.com.cn/">Jekyll</a> 搭建的 个人博客。我在GitHub主页<a href="https://github.com/qiubaiying">👉GitHub·BY</a> 与 简书主页<a href="https://http://www.jianshu.com/u/e71990ada2fd">👉BY</a>。</p>
+    <p>这是我为了找工作顺便锻炼写代码时候忙里偷闲建的个人博客。我的脸书主页<a href="https://www.facebook.com/profile.php?id=100010511286014">👉Facebook.Xi</a> 与 Instagram主页<a href="https://www.instagram.com/show_xi.chen/">👉Ins.Xi </a>。</p>
 
-    <p>工作、学习之余，我特别喜欢运动，跑步、健身和自由搏击都是我特别喜欢的运动。</p>
+    <p>成为程序猿纯属意外，生活里我喜欢跑跑跳跳喜欢尝试各种体育运动，喜欢旅行，摄影，记录生活里的杂七杂八，精力过于旺盛的楷模典范。</p>
 
     <p></p>
     
-    <h5>Talks</h5>
+    <h5>大概是要加点儿项目链接我还没做好👇都是别人的我还不会注释掉</h5>
 
     <ul>
     <li><a href="https://github.com">GitHub</a></li>
@@ -61,6 +62,7 @@ header-img: "img/post-bg-rwd.jpg"
     // get nodes
     var $zh = document.querySelector(".zh");
     var $en = document.querySelector(".en");
+    var $en = document.querySelector(".fr");
     var $select = document.querySelector("select");
 
     // bind hashchange event
