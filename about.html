@@ -9,6 +9,7 @@ header-img: "img/background6.jpg"
 <select class="sel-lang" onchange= "onLanChange(this.options[this.options.selectedIndex].value)">
     <option value="0" selected> 中文 Chinese </option>
     <option value="1"> 英文 English </option>
+    <option value="2"> 法文 Français </option>
 </select>
 
 <!-- Chinese Version -->
@@ -26,13 +27,13 @@ header-img: "img/background6.jpg"
 
     <p></p>
     
-    <h5>大概是要加点儿项目链接我还没做好👇都是别人的我还不会注释掉</h5>
+    <h5>下面是我做的项目链接👇</h5>
 
     <ul>
-    <li><a href="https://github.com">GitHub</a></li>
-    <li><a href="http://jekyll.com.cn/">jekyll</a></li>
-    <li><a href="https://pages.github.com/">GitHub Pages</a></li>
-    <li><a href="http://huangxuan.me/">Hux</a></li>    </ul>
+    <li><a href="https://github.com/showxichen">GitHub主页</a></li>
+    <li><a href="https://github.com/showxichen/Polytech-Parking">奥尔良停车管理系统</a></li>
+    <li><a href="https://github.com/showxichen/EchoGreen">与LAB'O公司合作的植物生长心电图监测项目网站</a></li>
+    <li><a href="http://ioe-lab.com/index.php ">PrestaShop安卓应用的电商网站</a></li>    </ul>
 </div>
 
 <!-- English Version -->
@@ -61,7 +62,7 @@ header-img: "img/background6.jpg"
     // get nodes
     var $zh = document.querySelector(".zh");
     var $en = document.querySelector(".en");
-    var $select = document.querySelector("select");
+    var $fr = document.querySelector(".fr");
 
     // bind hashchange event
     window.addEventListener('hashchange', _render);
@@ -74,12 +75,21 @@ header-img: "img/background6.jpg"
             $select.selectedIndex = 1;
             $en.style.display = "block";
             $zh.style.display = "none";
-        // zh by default
-        }else{
+            $fr.style.display = "none";
+        }
+        // fr
+        if(_hash == "#fr"){
+            $select.selectedIndex = 2;
+            $fr.style.display = "block";
+            $en.style.display = "none";
+            $zh.style.display = "none";
+        }
+        else{
             // not trigger onChange, otherwise cause a loop call.
             $select.selectedIndex = 0;
             $zh.style.display = "block";
             $en.style.display = "none";
+            $fr.style.display = "none";
         }
     }
 
@@ -87,7 +97,11 @@ header-img: "img/background6.jpg"
     function onLanChange(index){
         if(index == 0){
             window.location.hash = "#zh"
-        }else{
+        }
+        if(index == 2){
+            window.location.hash = "#fr"
+        }
+        else{
             window.location.hash = "#en"
         }
     }
