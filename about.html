@@ -92,6 +92,14 @@ header-img: "img/background6.jpg"
     // handle render
     function _render(){
         var _hash = window.location.hash;
+        //zh
+        if(_hash == "#zh"){
+            // not trigger onChange, otherwise cause a loop call.
+            $select.selectedIndex = 0;
+            $zh.style.display = "block";
+            $en.style.display = "none";
+            $fr.style.display = "none";
+        }
         // en
         if(_hash == "#en"){
             $select.selectedIndex = 1;
@@ -106,13 +114,7 @@ header-img: "img/background6.jpg"
             $en.style.display = "none";
             $zh.style.display = "none";
         }
-        if(_hash == "#zh"){
-            // not trigger onChange, otherwise cause a loop call.
-            $select.selectedIndex = 0;
-            $zh.style.display = "block";
-            $en.style.display = "none";
-            $fr.style.display = "none";
-        }
+        
     }
 
     // handle select change
