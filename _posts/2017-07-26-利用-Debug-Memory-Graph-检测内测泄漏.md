@@ -1,20 +1,21 @@
 ---
 layout:     post
-title:      利用 Debug Memory Graph 检测内测泄漏
-subtitle:   利用 Xcode 内存表（Debug Memory Graph）检测内测泄漏
+title:      My travel dairy
+subtitle:   I belong with the world
 date:       2017-07-26
-author:     BY
-header-img: img/post-bg-hacker.jpg
+author:     chenxi
+header-img: img/article2.jpeg
 catalog: true
 tags:
-    - Xcode
-    - 开发技巧
+    - Photogragh
+    - Travel
+    - Life
 ---
 
 
-## 前言
+## CHINA
 
-平常我们都会用 Instrument 的 Leaks / Allocations 或其他一些开源库进行内存泄露的排查，但它们都存在各种问题和不便，
+<image src="img/china1.jpeg">平常我们都会用 Instrument 的 Leaks / Allocations 或其他一些开源库进行内存泄露的排查，但它们都存在各种问题和不便，
 
 在这个 ARC 时代更常见的内存泄露是循环引用导致的 Abandoned memory，Leaks 工具查不出这类内存泄露，应用有限。
 
