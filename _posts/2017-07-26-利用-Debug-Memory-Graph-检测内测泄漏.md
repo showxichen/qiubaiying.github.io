@@ -15,7 +15,7 @@ tags:
 
 ## CHINA
 
-![alt text](/img/china1.jpeg "CHINA")平常我们都会用 Instrument 的 Leaks / Allocations 或其他一些开源库进行内存泄露的排查，但它们都存在各种问题和不便，
+![alt text](/img/china1.jpeg "CHINA")![alt text](/img/china2.jpeg "CHINA")I was born in Beijing and spentover 20 years in this city. But not enough for me. This is a city full of energy and multiculture. Everyday there're some incredible things happen on this ground. Excited and proud every time I introduce my hometown.
 
 在这个 ARC 时代更常见的内存泄露是循环引用导致的 Abandoned memory，Leaks 工具查不出这类内存泄露，应用有限。
 
