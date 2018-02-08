@@ -17,15 +17,8 @@ tags:
 
 ![alt text](/img/china1.jpeg "CHINA")![alt text](/img/china2.jpeg "CHINA")I was born in Beijing and spentover 20 years in this city. But not enough for me. This is a city full of energy and multiculture. Everyday there're some incredible things happen on this ground. Excited and proud every time I introduce my hometown.
 
-在这个 ARC 时代更常见的内存泄露是循环引用导致的 Abandoned memory，Leaks 工具查不出这类内存泄露，应用有限。
 
-今天介绍一种简单直接的检测内测泄漏的方法：**Debug Memory Graph**
-
-就是这货：
-
-![](https://ws4.sinaimg.cn/large/006tNc79gy1fhxct12udnj311x0s3grw.jpg)
-
-## 正文
+### France
 
 我最近的项目中，退出登录后（跳转到登录页），发现首页控制器没有被销毁，依旧能接收通知。
 
