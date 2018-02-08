@@ -15,7 +15,9 @@ tags:
 
 ## CHINA
 
---![alt text](/img/china1.jpeg "CHINA")![alt text](/img/china2.jpeg "CHINA")I was born in Beijing and spentover 20 years in this city. But not enough for me. This is a city full of energy and multiculture. Everyday there're some incredible things happen on this ground. Excited and proud every time I introduce my hometown.
+--Beijing<br/>
+I was born in Beijing and spentover 20 years in this city. But not enough for me. This is a city full of energy and multiculture. Everyday there're some incredible things happen on this ground. Excited and proud every time I introduce my hometown.
+![alt text](/img/china1.jpeg "CHINA")![alt text](/img/china2.jpeg "CHINA")
 
 
 ### France
